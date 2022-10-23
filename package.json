@@ -1,0 +1,21 @@
+{
+  "name": "gentle-clean",
+  "displayName": "gentle-clean",
+  "description": "A dark theme for vscode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gentle Clean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gentle Clean-color-theme.json"
+      }
+    ]
+  }
+}
