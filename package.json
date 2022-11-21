@@ -22,5 +22,9 @@
         "path": "./themes/Gentle Clean-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "vsce package",
+    "release": "vsce publish"
   }
 }
