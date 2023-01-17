@@ -2,7 +2,7 @@
   "name": "gentle-clean",
   "displayName": "gentle-clean",
   "description": "A dark theme for vscode.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "kricsleo",
   "repository": {
     "type": "git",
