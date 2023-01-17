@@ -190,10 +190,11 @@
 				"punctuation.definition.typeparameters.end",
 				"entity.name.label",
 				"entity.name.type",
-				"support.type.primitive"
+				"support.type.primitive",
+				"text.html.derivative"
 			],
 			"settings": {
-				// "foreground": "#ffffff"
+				"foreground": "#62C4C4"
 			}
 		},
 		{
@@ -209,7 +210,7 @@
 				"constant.other.color.rgb-value.hex.css",
 			],
 			"settings": {
-				"foreground": "#62C4C4"
+				"foreground": "#66b395"
 			}
 		},
 		{
@@ -227,7 +228,7 @@
 				"keyword.operator.new.js",
 			],
 			"settings": {
-				"foreground": "#dccd78"
+				"foreground": "#e7d38f"
 			}
 		},
 		{
