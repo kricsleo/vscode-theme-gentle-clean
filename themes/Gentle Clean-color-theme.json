@@ -19,7 +19,6 @@
 		"editor.findMatchBackground": "#cfebfd21",
 		"editor.findMatchHighlightBackground": "#cfebfd21",
 		"editor.findRangeHighlightBackground": "#cfebfd21",
-		// "editor.foreground": "#d8dee9",
 		"editor.foreground": "#cbd0d9",
 		"editor.hoverHighlightBackground": "#cfebfd21",
 		"editor.inactiveSelectionBackground": "#4c5863ff",
@@ -246,7 +245,8 @@
 				"entity.name.type.alias",
 				"variable.parameter",
 				"variable.other.object",
-				"variable.language"
+				"variable.language",
+				"support.variable.property"
 			],
 			"settings": {
 				"foreground": "#ffafcce3",
