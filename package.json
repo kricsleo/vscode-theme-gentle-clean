@@ -29,6 +29,7 @@
     "release": "bumpp && nr build && vsce publish"
   },
   "devDependencies": {
-    "bumpp": "^8.2.1"
+    "bumpp": "^8.2.1",
+    "vsce": "^2.15.0"
   }
 }
