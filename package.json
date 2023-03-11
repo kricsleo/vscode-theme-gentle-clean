@@ -1,7 +1,7 @@
 {
   "name": "gentle-clean",
-  "displayName": "gentle-clean",
-  "description": "A dark theme for vscode.",
+  "displayName": "Gentle Clean",
+  "description": "A gentle and clean theme for VS Code.",
   "version": "0.0.8",
   "publisher": "kricsleo",
   "repository": {
