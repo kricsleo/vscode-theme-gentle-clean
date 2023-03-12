@@ -53,8 +53,8 @@
     "list.inactiveSelectionForeground": "#dbd7caee",
     "list.activeSelectionForeground": "#dbd7caee",
     "list.hoverBackground": "#292929",
-    "list.inactiveSelectionBackground": "#292929",
-    "list.activeSelectionBackground": "#292929",
+    "list.inactiveSelectionBackground": "#333",
+    "list.activeSelectionBackground": "#333",
     "list.inactiveFocusBackground": "#222",
     "list.focusBackground": "#292929",
     "tree.indentGuidesStroke": "#2f363d",
@@ -100,7 +100,7 @@
     "editor.background": "#222",
     "editorWidget.background": "#222",
     "editor.foldBackground": "#eeeeee10",
-    "editor.lineHighlightBackground": "#292929",
+    "editor.lineHighlightBackground": "#333",
     "editorLineNumber.foreground": "#dedcd530",
     "editorLineNumber.activeForeground": "#bfbaaa",
     "editorIndentGuide.background": "#ffffff15",
@@ -245,6 +245,7 @@
 			"scope": [
 				"constant",
 				"variable.other.constant.property",
+				"variable.other.constant",
 				"variable.other.property",
 				"variable.other.readwrite",
 				"variable.member",
@@ -274,6 +275,7 @@
 				"markup.underline.link",
 				"punctuation.definition",
 				"variable.other.object",
+				"variable.other.constant.object",
 			],
 			"settings": {
 				"foreground": "#6394bf"
