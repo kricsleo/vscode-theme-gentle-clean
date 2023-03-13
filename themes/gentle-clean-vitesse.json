@@ -225,8 +225,10 @@
 		},
 		{
 			"scope": [
+        "punctuation.definition.entity.css",
 				"entity.name.tag",
 				"entity.other.attribute-name.class",
+        "entity.other.attribute-name.pseudo-class.css",
 				"support.class.component",
 				"storage",
 				"keyword",
@@ -234,7 +236,8 @@
 				"keyword.operator",
 				"keyword.operator.word",
 				"keyword.operator.new.js",
-				"variable.language"
+				"variable.language",
+        "variable.scss"
 			],
 			"settings": {
 				"foreground": "#d4976cee"
