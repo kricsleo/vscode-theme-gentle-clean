@@ -52,11 +52,11 @@
     "list.hoverForeground": "#dbd7caee",
     "list.inactiveSelectionForeground": "#dbd7caee",
     "list.activeSelectionForeground": "#dbd7caee",
-    "list.hoverBackground": "#292929",
-    "list.inactiveSelectionBackground": "#EEEAD930",
-    "list.activeSelectionBackground": "#EEEAD940",
+    "list.hoverBackground": "#EEEAD915",
+    "list.inactiveSelectionBackground": "#EEEAD925",
+    "list.activeSelectionBackground": "#EEEAD930",
     "list.inactiveFocusBackground": "#222",
-    "list.focusBackground": "#292929",
+    "list.focusBackground": "#EEEAD930",
     "tree.indentGuidesStroke": "#2f363d",
     "notificationCenterHeader.foreground": "#959da5",
     "notificationCenterHeader.background": "#222",
@@ -106,13 +106,13 @@
     "editorIndentGuide.background": "#ffffff15",
     "editorIndentGuide.activeBackground": "#ffffff30",
     "editorWhitespace.foreground": "#ffffff15",
-    "editor.findMatchBackground": "#EEEAD940",
-    "editor.findMatchHighlightBackground": "#EEEAD930",
+    "editor.findMatchBackground": "#EEEAD910",
+    "editor.findMatchHighlightBackground": "#EEEAD920",
     "editor.inactiveSelectionBackground": "#EEEAD920",
-    "editor.selectionBackground": "#EEEAD940",
-    "editor.selectionHighlightBackground": "#EEEAD930",
-    "editor.wordHighlightBackground": "#EEEAD930",
-    "editor.wordHighlightStrongBackground": "#EEEAD940",
+    "editor.selectionBackground": "#EEEAD920",
+    "editor.selectionHighlightBackground": "#EEEAD908",
+    "editor.wordHighlightBackground": "#EEEAD908",
+    "editor.wordHighlightStrongBackground": "#EEEAD920",
     "editorBracketMatch.background": "#4d937520",
     "diffEditor.insertedTextBackground": "#4d937522",
     "diffEditor.removedTextBackground": "#ab595922",
@@ -284,20 +284,29 @@
 				"foreground": "#6394bfee"
 			}
 		},
-		{
-			"scope": [
-				"comment",
+    {
+      "scope": [
 				"keyword.operator.type",
 				"keyword.control.as",
+        "keyword.operator.relational",
 				"meta.brace.round",
 				"meta.brace.angle",
 				"meta.brace.square",
+        "meta.return.type",
 				"storage.type.function.arrow",
-				"punctuation",
-				"punctuation.accessor"
+				"punctuation"
+      ],
+      "settings": {
+        "foreground": "#EEEAD999"
+      }
+    },
+		{
+			"scope": [
+				"comment",
+        "punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#848890ee"
+				"foreground": "#848890cc"
 			}
 		},
 		{
