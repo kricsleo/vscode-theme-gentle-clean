@@ -52,11 +52,11 @@
     "list.hoverForeground": "#dbd7caee",
     "list.inactiveSelectionForeground": "#dbd7caee",
     "list.activeSelectionForeground": "#dbd7caee",
-    "list.hoverBackground": "#EEEAD915",
-    "list.inactiveSelectionBackground": "#EEEAD925",
-    "list.activeSelectionBackground": "#EEEAD930",
+    "list.hoverBackground": "#EEEAD910",
+    "list.inactiveSelectionBackground": "#EEEAD920",
+    "list.activeSelectionBackground": "#EEEAD920",
     "list.inactiveFocusBackground": "#222",
-    "list.focusBackground": "#EEEAD930",
+    "list.focusBackground": "#EEEAD920",
     "tree.indentGuidesStroke": "#2f363d",
     "notificationCenterHeader.foreground": "#959da5",
     "notificationCenterHeader.background": "#222",
@@ -100,7 +100,7 @@
     "editor.background": "#222",
     "editorWidget.background": "#222",
     "editor.foldBackground": "#eeeeee10",
-    "editor.lineHighlightBackground": "#EEEAD920",
+    "editor.lineHighlightBackground": "#EEEAD910",
     "editorLineNumber.foreground": "#dedcd530",
     "editorLineNumber.activeForeground": "#bfbaaa",
     "editorIndentGuide.background": "#ffffff15",
@@ -122,7 +122,7 @@
     "scrollbarSlider.activeBackground": "#dedcd530",
     "editorOverviewRuler.border": "#111",
     "panel.background": "#222",
-    "panel.border": "#252525",
+    "panel.border": "#4d937522",
     "panelTitle.activeBorder": "#4d9375",
     "panelTitle.activeForeground": "#dbd7caee",
     "panelTitle.inactiveForeground": "#959da5",
@@ -297,7 +297,7 @@
 				"punctuation"
       ],
       "settings": {
-        "foreground": "#EEEAD999"
+        "foreground": "#EEEAD9a5"
       }
     },
 		{
