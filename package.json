@@ -2,7 +2,7 @@
   "name": "gentle-clean",
   "displayName": "Gentle Clean",
   "description": "A gentle and clean theme for VS Code.",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "publisher": "kricsleo",
   "repository": {
     "type": "git",
