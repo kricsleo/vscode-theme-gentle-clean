@@ -195,7 +195,6 @@
 				"entity.other.attribute-name",
 				"meta.directive",
 				"meta.tag.block.any",
-				"meta.object-literal.key",
 				"support.type.property-name",
 				"support.type.primitive",
 				"variable.object.property",
@@ -213,16 +212,17 @@
 				"source",
 				"text.html",
 				"text.html.derivative",
-				"meta.property-value",
 				"meta.interface",
-				"support.constant.property-value",
+				"meta.property-value",
+        "meta.object-literal.key",
 				"keyword.other.unit",
 				"support.type",
+				"support.constant.property-value",
 				"constant.numeric.css",
 				"constant.other.color.rgb-value.hex.css"
 			],
 			"settings": {
-				"foreground": "#4d9375ef"
+				"foreground": "#2ec4b6aa"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
         "variable.scss"
 			],
 			"settings": {
-				"foreground": "#d4976cef"
+				"foreground": "#d4976c"
 			}
 		},
 		{
@@ -283,7 +283,7 @@
         "string.unquoted.argument"
 			],
 			"settings": {
-				"foreground": "#6394bfef"
+				"foreground": "#0096c7"
 			}
 		},
     {
