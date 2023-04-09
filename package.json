@@ -31,10 +31,14 @@
   },
   "scripts": {
     "build": "vsce package",
-    "release": "bumpp && nr build && vsce publish"
+    "release": "bumpp && nr build && vsce publish",
+    "preview": "npx zx ./scripts/preview.mjs"
   },
   "devDependencies": {
     "bumpp": "^8.2.1",
     "vsce": "^2.15.0"
+  },
+  "dependencies": {
+    "zx": "^7.2.1"
   }
 }
