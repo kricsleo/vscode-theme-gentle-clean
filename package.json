@@ -36,9 +36,7 @@
   },
   "devDependencies": {
     "bumpp": "^8.2.1",
-    "vsce": "^2.15.0"
-  },
-  "dependencies": {
+    "vsce": "^2.15.0",
     "zx": "^7.2.1"
   }
 }
