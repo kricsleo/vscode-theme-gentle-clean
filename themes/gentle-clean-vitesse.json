@@ -205,7 +205,7 @@
 				"punctuation.attribute-shorthand"
 			],
 			"settings": {
-				"foreground": "#9cbaa2"
+				"foreground": "#9cbaa2ee"
 			}
 		},
 		{
@@ -224,7 +224,7 @@
 				"constant.other.color.rgb-value.hex.css"
 			],
 			"settings": {
-				"foreground": "#43aa8b"
+				"foreground": "#43aa8be0"
 			}
 		},
 		{
@@ -245,7 +245,7 @@
         "variable.scss"
 			],
 			"settings": {
-				"foreground": "#fec89ada"
+				"foreground": "#fec89ac6"
 			}
 		},
 		{
@@ -269,7 +269,7 @@
 				"support.variable.property"
 			],
 			"settings": {
-				"foreground": "#e5989b"
+				"foreground": "#e5989bee"
 			}
 		},
 		{
