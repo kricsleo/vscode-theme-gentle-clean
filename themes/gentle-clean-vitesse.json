@@ -190,18 +190,15 @@
       // key
 			"scope": [
 				"entity.name.label",
-				"entity.name.type",
 				"entity.other.attribute-name",
 				"meta.directive",
 				"meta.tag.block.any",
         "meta.object-literal.key",
 				"support.type.property-name",
-				"support.type.primitive",
 				"variable.object.property",
         "variable.other.object.property",
         "variable.other.property",
         "variable.other.enummember",
-				"variable.other.constant.object",
 				"punctuation.attribute-shorthand"
 			],
 			"settings": {
@@ -253,6 +250,8 @@
 			"scope": [
 				"constant",
 				"variable.member",
+				"variable.parameter",
+				"variable.other.constant.object",
 				"variable.other.constant.property",
 				"variable.other.constant",
 				"variable.other.object",
@@ -260,13 +259,11 @@
 				"meta.definition.variable",
 				"meta.type.declaration.ts",
 				"support.constant",
+				"support.type.primitive",
+				"support.variable.property",
 				"meta.diff",
 				"meta.diff.header",
-				"entity.name.type.interface",
-				"entity.name.type.alias",
-        "entity.name.type.enum",
-				"variable.parameter",
-				"support.variable.property"
+				"entity.name.type"
 			],
 			"settings": {
 				"foreground": "#e5989bee"
