@@ -49,7 +49,7 @@
     "list.hoverForeground": "#dbd7caee",
     "list.inactiveSelectionForeground": "#dbd7caee",
     "list.activeSelectionForeground": "#dbd7caee",
-    "list.hoverBackground": "#9cbaa210",
+    "list.hoverBackground": "#8ecae610",
     "list.inactiveSelectionBackground": "#9cbaa240",
     "list.activeSelectionBackground": "#9cbaa240",
     "list.inactiveFocusBackground": "#1C2126",
@@ -97,7 +97,7 @@
     "editor.background": "#1C2126",
     "editorWidget.background": "#1C2126",
     "editor.foldBackground": "#eeeeee10",
-    "editor.lineHighlightBackground": "#9cbaa210",
+    "editor.lineHighlightBackground": "#9cbaa230",
     "editorLineNumber.foreground": "#dedcd530",
     "editorLineNumber.activeForeground": "#bfbaaa",
     "editorIndentGuide.background": "#ffffff15",
@@ -202,7 +202,7 @@
 				"punctuation.attribute-shorthand"
 			],
 			"settings": {
-				"foreground": "#9cbaa2f2"
+				"foreground": "#9cbaa2"
 			}
 		},
 		{
@@ -221,7 +221,7 @@
 				"constant.other.color.rgb-value.hex.css"
 			],
 			"settings": {
-				"foreground": "#43aa8be5"
+				"foreground": "#43aa8b"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
         "variable.scss"
 			],
 			"settings": {
-				"foreground": "#fec89acf"
+				"foreground": "#fec89ae0"
 			}
 		},
 		{
@@ -259,14 +259,12 @@
 				"meta.definition.variable",
 				"meta.type.declaration.ts",
 				"support.constant",
-				"support.type.primitive",
 				"support.variable.property",
 				"meta.diff",
-				"meta.diff.header",
-				"entity.name.type"
+				"meta.diff.header"
 			],
 			"settings": {
-				"foreground": "#e5989bf2"
+				"foreground": "#e5989b"
 			}
 		},
 		{
@@ -289,6 +287,7 @@
 				"foreground": "#61a5c2"
 			}
 		},
+    // operator
     {
       "scope": [
 				"keyword.operator.type",
@@ -303,7 +302,16 @@
         "fenced_code.block.language"
       ],
       "settings": {
-        "foreground": "#eeeeeeaa"
+        "foreground": "#5AA4AE"
+      }
+    },
+    {
+      "scope":[
+				"support.type.primitive",
+				"entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#A4ABD6"
       }
     },
 		{
