@@ -202,7 +202,7 @@
 				"punctuation.attribute-shorthand"
 			],
 			"settings": {
-				"foreground": "#9cbaa2"
+				"foreground": "#A5C0AA"
 			}
 		},
 		{
@@ -221,7 +221,7 @@
 				"constant.other.color.rgb-value.hex.css"
 			],
 			"settings": {
-				"foreground": "#43aa8b"
+				"foreground": "#4FBA9A"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
         "variable.scss"
 			],
 			"settings": {
-				"foreground": "#fec89ae0"
+				"foreground": "#eaac8b"
 			}
 		},
 		{
@@ -284,7 +284,7 @@
         "string.unquoted.argument"
 			],
 			"settings": {
-				"foreground": "#61a5c2"
+				"foreground": "#7EB5D2"
 			}
 		},
     // operator
@@ -311,7 +311,7 @@
 				"entity.name.type"
       ],
       "settings": {
-        "foreground": "#A4ABD6"
+        "foreground": "#B9BEDF"
       }
     },
 		{
@@ -320,7 +320,7 @@
         "punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#848890cc"
+				"foreground": "#666970"
 			}
 		},
 		{
