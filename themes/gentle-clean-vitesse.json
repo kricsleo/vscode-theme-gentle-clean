@@ -202,7 +202,7 @@
 				"punctuation.attribute-shorthand"
 			],
 			"settings": {
-				"foreground": "#a1bea6"
+				"foreground": "#9cb9a1"
         // fallback: #07BEB8
 			}
 		},
@@ -221,7 +221,7 @@
 				"constant.other.color.rgb-value.hex.css"
 			],
 			"settings": {
-				"foreground": "#04af8c"
+				"foreground": "#04b893"
 			}
 		},
 		{
@@ -243,7 +243,7 @@
         "variable.scss"
 			],
 			"settings": {
-				"foreground": "#e5ac8e"
+				"foreground": "#d9a58a"
 			}
 		},
 		{
@@ -266,7 +266,7 @@
         "string.regexp"
 			],
 			"settings": {
-				"foreground": "#ee96aa"
+				"foreground": "#e893a6"
 			}
 		},
 		{
@@ -315,7 +315,7 @@
 				"meta.interface"
       ],
       "settings": {
-        "foreground": "#b198ec"
+        "foreground": "#a4a8cb"
       }
     },
 		{
