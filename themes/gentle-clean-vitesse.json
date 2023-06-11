@@ -202,7 +202,7 @@
 				"punctuation.attribute-shorthand"
 			],
 			"settings": {
-				"foreground": "#a4c1a9"
+				"foreground": "#a1bea6"
         // fallback: #07BEB8
 			}
 		},
@@ -243,7 +243,7 @@
         "variable.scss"
 			],
 			"settings": {
-				"foreground": "#eeb293"
+				"foreground": "#e5ac8e"
 			}
 		},
 		{
@@ -315,7 +315,7 @@
 				"meta.interface"
       ],
       "settings": {
-        "foreground": "#baa1f5"
+        "foreground": "#b198ec"
       }
     },
 		{
