@@ -18,9 +18,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Gentle Clean Vitesse",
+        "label": "Gentle Clean Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/gentle-clean-vitesse.json"
+        "path": "./themes/gentle-clean-dark.json"
+      },
+      {
+        "label": "Gentle Clean Light",
+        "uiTheme": "vs",
+        "path": "./themes/gentle-clean-light.json"
       },
       {
         "label": "Gentle Clean Monokai",
