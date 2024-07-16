@@ -1,13 +1,14 @@
-import fs from 'fs/promises'
+import fs from 'node:fs/promises'
+import path from 'node:path'
 
-const devFile = '/Users/shengfeng.xu/Documents/workspace/vscode-theme-gentle-clean/themes/gentle-clean-dark.json'
-const targetFile = '/Users/shengfeng.xu/Documents/workspace/vscode-theme-gentle-clean/themes/gentle-clean-dark2.json'
+const devFile = path.resolve('./themes/gentle-clean-dark.dev.json')
+const targetFile = path.resolve('./themes/gentle-clean-dark.json')
 
 main()
 
 async function main() {
   try {
-    import('../themes/gentle-clean-dark.json')
+    import(devFile)
   } catch {
     // never mind, just import this file to trigger `bun --watch` to re-run this scritp
   }
@@ -30,13 +31,14 @@ function replace(content: string): string {
   const varialbes = new Map(variableLines.map(line => line
     .slice(line.indexOf('$'))
     .trimEnd()
-    .split(':') as [string, string]
+    .split(':')
+    .map(t => t.trim()) as [string, string]
   ))
 
   console.log('varialbes', varialbes)
 
   return configLines.map(line => line.replace(
     /(?<=")\$[^"]*(?=")/, 
-    match => varialbes.get(match)!
+    match => varialbes.get(match) || '#aa0000'
   )).join('\n')
 }

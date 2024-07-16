@@ -35,6 +35,7 @@
     ]
   },
   "scripts": {
+    "dev": "bun --watch scripts/dev.ts",
     "build": "vsce package",
     "release": "bumpp && nr build && vsce publish",
     "preview": "npx zx ./scripts/preview.mjs"
