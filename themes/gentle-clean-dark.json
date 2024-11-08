@@ -2,9 +2,9 @@
   "name": "Gentle Clean Dark",
   "type": "dark",
   "colors": {
-    "foreground": "#b0b0b0",
+    "foreground": "#A9ABBC",
     "errorForeground": "#ef4444",
-    "descriptionForeground": "#b0b0b0",
+    "descriptionForeground": "#A9ABBC",
     "focusBorder": "#ffffff01",
 
     "editor.background": "#1a1b26",
@@ -211,26 +211,29 @@
   },
   "tokenColors": [
     {
-      // key
+      "name": "object key",
       "scope": [
         "entity.name.label",
         "entity.other.attribute-name",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.html.vue",
         "meta.directive",
         "meta.tag.block.any",
         "meta.object-literal.key",
         "support.type.property-name",
-        "variable.object.property",
-        "variable.other.object.property",
+        "support.variable.property",
         "variable.other.property",
+        "variable.other.object.property",
+        "variable.other.constant.property",
         "variable.other.enummember",
-        "punctuation.attribute-shorthand"
+        "meta.definition.property variable.object.property"
       ],
       "settings": {
-        "foreground": "#76a596"
+        "foreground": "#8AB2A6"
       }
     },
     {
-      // string
+      "name": "string",
       "scope": [
         "string",
         "source",
@@ -243,13 +246,14 @@
         "constant.other.color.rgb-value.hex.css"
       ],
       "settings": {
-        "foreground": "#0ea183"
+        "foreground": "#A9ABBC"
       }
     },
     {
-      // keyword
+      "name": "keyword",
       "scope": [
         "punctuation.definition.entity.css",
+        "punctuation.attribute-shorthand",
         "entity.name.tag",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class.css",
@@ -262,11 +266,11 @@
         "variable.scss"
       ],
       "settings": {
-        "foreground": "#c49076"
+        "foreground": "#009b88"
       }
     },
     {
-      // operator
+      "name": "operator",
       "scope": [
         "keyword.operator",
         "meta.brace.round",
@@ -276,37 +280,39 @@
         "storage.type.function.arrow",
         "punctuation",
         "fenced_code.block.language",
-        "meta.attribute.directive"
+        "meta.attribute.directive",
+        "punctuation.accessor.optional",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.html"
       ],
       "settings": {
-        "foreground": "#b0b0b0"
+        "foreground": "#828793"
       }
     },
     {
-      // variable
+      "name": "variable",
       "scope": [
-        "constant",
         "variable.member",
         "variable.parameter",
         "variable.other.constant.object",
-        "variable.other.constant.property",
         "variable.other.constant",
         "variable.other.object",
         "variable.other.readwrite",
+        "variable.object.property",
         "meta.definition.variable",
         "meta.type.declaration.ts",
         "support.constant",
-        "support.variable.property",
         "meta.diff",
         "meta.diff.header",
-        "string.regexp"
+        "string.regexp",
+        "constant"
       ],
       "settings": {
-        "foreground": "#e07e93"
+        "foreground": "#DD748A"
       }
     },
     {
-      // funciton
+      "name": "function",
       "scope": [
         "variable.function",
         "variable.annotation",
@@ -323,14 +329,15 @@
         "punctuation.accessor.optional",
         "meta.command",
         "string.unquoted.argument",
-        "keyword.operator.spread"
+        "keyword.operator.spread",
+        "keyword.operator.expression"
       ],
       "settings": {
-        "foreground": "#5ea3cc"
+        "foreground": "#60A8D2"
       }
     },
     {
-      // ts types
+      "name": "typescript types",
       "scope": [
         "support.type",
         "entity.name.type",
@@ -341,15 +348,28 @@
       }
     },
     {
-      // comment
+      "name": "comment",
       "scope": [
         "comment",
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#828793"
+        "foreground": "#656A80"
       }
     },
+
+    {
+      "name": "vue custom element tag",
+      "scope": [
+        "meta.tag.custom.start.html entity.name.tag.html",
+        "meta.tag.custom.end.html entity.name.tag.html"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+        // "foreground": "#009b88"
+      }
+    },
+
     {
       "scope": [
         "markup.heading",

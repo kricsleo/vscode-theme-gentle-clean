@@ -1,6 +1,7 @@
 {
   // $white:#fff
-  // $light:#b0b0b0
+  // $light:#A9ABBC
+  // $light2:#656A80
   // $dim: #828793
   // $border: #000
   // $dim5: #bbbbbb88
@@ -11,12 +12,15 @@
   // $black:#000
   // $dark3:#3E405B
   // $dark2:#5D6089
-  // $yellow:#c49076
-  // $red:#e07e93
+  // $yellow:#CDB765
+  // $cyan:#009b88
+  // $mint:#1CA689
+  // $green:#429988
+  // $red:#DD748A
   // $red2:#ef4444
-  // $blue:#5ea3cc
+  // $blue:#60A8D2
   // $green:#0ea183
-  // $teal:#76a596
+  // $teal:#8AB2A6
   // $purple:#ab91d3
   // $transparent:#ffffff01
   "name": "Gentle Clean Dark",
@@ -231,26 +235,29 @@
   },
   "tokenColors": [
     {
-      // key
+      "name": "object key",
       "scope": [
         "entity.name.label",
         "entity.other.attribute-name",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.html.vue",
         "meta.directive",
         "meta.tag.block.any",
         "meta.object-literal.key",
         "support.type.property-name",
-        "variable.object.property",
-        "variable.other.object.property",
+        "support.variable.property",
         "variable.other.property",
+        "variable.other.object.property",
+        "variable.other.constant.property",
         "variable.other.enummember",
-        "punctuation.attribute-shorthand"
+        "meta.definition.property variable.object.property"
       ],
       "settings": {
         "foreground": "$teal"
       }
     },
     {
-      // string
+      "name": "string",
       "scope": [
         "string",
         "source",
@@ -263,13 +270,14 @@
         "constant.other.color.rgb-value.hex.css"
       ],
       "settings": {
-        "foreground": "$green"
+        "foreground": "$light"
       }
     },
     {
-      // keyword
+      "name": "keyword",
       "scope": [
         "punctuation.definition.entity.css",
+        "punctuation.attribute-shorthand",
         "entity.name.tag",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class.css",
@@ -282,11 +290,11 @@
         "variable.scss"
       ],
       "settings": {
-        "foreground": "$yellow"
+        "foreground": "$cyan"
       }
     },
     {
-      // operator
+      "name": "operator",
       "scope": [
         "keyword.operator",
         "meta.brace.round",
@@ -296,37 +304,39 @@
         "storage.type.function.arrow",
         "punctuation",
         "fenced_code.block.language",
-        "meta.attribute.directive"
+        "meta.attribute.directive",
+        "punctuation.accessor.optional",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.html"
       ],
       "settings": {
-        "foreground": "$light"
+        "foreground": "$dim"
       }
     },
     {
-      // variable
+      "name": "variable",
       "scope": [
-        "constant",
         "variable.member",
         "variable.parameter",
         "variable.other.constant.object",
-        "variable.other.constant.property",
         "variable.other.constant",
         "variable.other.object",
         "variable.other.readwrite",
+        "variable.object.property",
         "meta.definition.variable",
         "meta.type.declaration.ts",
         "support.constant",
-        "support.variable.property",
         "meta.diff",
         "meta.diff.header",
-        "string.regexp"
+        "string.regexp",
+        "constant"
       ],
       "settings": {
         "foreground": "$red"
       }
     },
     {
-      // funciton
+      "name": "function",
       "scope": [
         "variable.function",
         "variable.annotation",
@@ -343,14 +353,15 @@
         "punctuation.accessor.optional",
         "meta.command",
         "string.unquoted.argument",
-        "keyword.operator.spread"
+        "keyword.operator.spread",
+        "keyword.operator.expression"
       ],
       "settings": {
         "foreground": "$blue"
       }
     },
     {
-      // ts types
+      "name": "typescript types",
       "scope": [
         "support.type",
         "entity.name.type",
@@ -361,15 +372,28 @@
       }
     },
     {
-      // comment
+      "name": "comment",
       "scope": [
         "comment",
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "$dim"
+        "foreground": "$light2"
       }
     },
+
+    {
+      "name": "vue custom element tag",
+      "scope": [
+        "meta.tag.custom.start.html entity.name.tag.html",
+        "meta.tag.custom.end.html entity.name.tag.html"
+      ],
+      "settings": {
+        "fontStyle": "underline"
+        // "foreground": "$cyan"
+      }
+    },
+
     {
       "scope": [
         "markup.heading",
