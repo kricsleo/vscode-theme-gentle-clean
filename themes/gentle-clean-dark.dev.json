@@ -4,7 +4,7 @@
   // $light2:#656A80
   // $light3:#A3A5B8
   // $dim: #828793
-  // $border: #000
+  // $border: #3E405B
   // $dim5: #bbbbbb88
   // $dim6: #bbbbbb30
   // $dim8: #bbbbbb20
@@ -165,6 +165,11 @@
     "scrollbarSlider.background": "#dedcd510",
     "scrollbarSlider.hoverBackground": "#dedcd530",
     "scrollbarSlider.activeBackground": "#dedcd530",
+
+    "scrollbar.shadow": "$transparent",
+    "widget.shadow": "$transparent",
+    "widget.border": "$border",
+
     "editorOverviewRuler.border": "#111",
 
     "panelTitle.activeBorder": "$border",
