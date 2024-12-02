@@ -28,13 +28,13 @@
     "editor.foldBackground": "#bbbbbb20",
     // "editorWhitespace.foreground": "#444d56",
 
-    "editor.findMatchBackground": "#3E405B",
+    "editor.findMatchBackground": "#2F3146",
     "editor.findMatchBorder": "#ffffff01",
     "editor.findMatchHighlightBackground": "#ffffff01",
     "editor.findMatchHighlightBorder": "#bbbbbb88",
 
-    "editor.selectionBackground": "#3E405B",
-    "editor.inactiveSelectionBackground": "#3E405B",
+    "editor.selectionBackground": "#2F3146",
+    "editor.inactiveSelectionBackground": "#2F3146",
     "editor.selectionHighlightBackground": "#ffffff01",
     "editor.selectionHighlightBorder": "#bbbbbb88",
 
@@ -286,12 +286,13 @@
         "punctuation.definition.tag.begin.html"
       ],
       "settings": {
-        "foreground": "#828793"
+        "foreground": "#9597AD"
       }
     },
     {
       "name": "variable",
       "scope": [
+        "variable.language.this",
         "variable.member",
         "variable.parameter",
         "variable.other.constant.object",
@@ -344,7 +345,7 @@
         "meta.interface"
       ],
       "settings": {
-        "foreground": "#ab91d3"
+        "foreground": "#A68BD0"
       }
     },
     {

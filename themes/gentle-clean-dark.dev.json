@@ -2,6 +2,7 @@
   // $white:#fff
   // $light:#A9ABBC
   // $light2:#656A80
+  // $light3:#A3A5B8
   // $dim: #828793
   // $border: #000
   // $dim5: #bbbbbb88
@@ -10,7 +11,7 @@
   // $dim9: #bbbbbb10
   // $dark:#1a1b26
   // $black:#000
-  // $dark3:#3E405B
+  // $dark3:#2F3146
   // $dark2:#5D6089
   // $yellow:#CDB765
   // $cyan:#009b88
@@ -19,9 +20,10 @@
   // $red:#DD748A
   // $red2:#ef4444
   // $blue:#60A8D2
+  // $blue_bak:#60A8D2 + #449dab
   // $green:#0ea183
   // $teal:#8AB2A6
-  // $purple:#ab91d3
+  // $purple:#A68BD0
   // $transparent:#ffffff01
   "name": "Gentle Clean Dark",
   "type": "dark",
@@ -310,12 +312,13 @@
         "punctuation.definition.tag.begin.html"
       ],
       "settings": {
-        "foreground": "$dim"
+        "foreground": "#9597AD"
       }
     },
     {
       "name": "variable",
       "scope": [
+        "variable.language.this",
         "variable.member",
         "variable.parameter",
         "variable.other.constant.object",
