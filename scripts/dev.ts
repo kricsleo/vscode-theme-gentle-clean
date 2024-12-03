@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import stripJsonComments from 'strip-json-comments';
 
 const devFile = path.resolve('./themes/gentle-clean-dark.dev.json')
 const targetFile = path.resolve('./themes/gentle-clean-dark.json')
@@ -14,7 +15,7 @@ async function main() {
   }
   const devContent = await fs.readFile(devFile, 'utf-8')
   const replaced = replace(devContent)
-  await fs.writeFile(targetFile, replaced, 'utf-8')
+  await fs.writeFile(targetFile, stripJsonComments(replaced), 'utf-8')
 }
 
 function replace(content: string): string {
