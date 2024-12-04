@@ -26,7 +26,7 @@ html {
   background: #1a1b26;
 }
 code {
-  font-family: JuliaMono;;
+  font-family: "IBM Plex Mono";
 }
 
 main {

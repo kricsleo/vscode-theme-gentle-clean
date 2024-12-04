@@ -1,6 +1,6 @@
 {
   // $white:#fff
-  // $light:#A9ABBC
+  // $light:#9497A8
   // $light2:#656A80
   // $light3:#A3A5B8
   // $dim: #828793
@@ -13,17 +13,17 @@
   // $black:#000
   // $dark3:#2F3146
   // $dark2:#5D6089
-  // $yellow:#CDB765
-  // $cyan:#009b88
-  // $mint:#1CA689
+  // $yellow:#BAA65E
+  // $cyan:#56949f
+  // $mint:#2C9680
   // $green:#429988
-  // $red:#DD748A
+  // $red:#BA6E81
   // $red2:#ef4444
-  // $blue:#60A8D2
+  // $blue:#6397B6
   // $blue_bak:#60A8D2 + #449dab
   // $green:#0ea183
-  // $teal:#8AB2A6
-  // $purple:#A68BD0
+  // $teal:#639787
+  // $purple:#8381BB
   // $transparent:#ffffff01
   "name": "Gentle Clean Dark",
   "type": "dark",
@@ -297,7 +297,7 @@
         "variable.scss"
       ],
       "settings": {
-        "foreground": "$cyan"
+        "foreground": "$mint"
       }
     },
     {
@@ -317,7 +317,7 @@
         "punctuation.definition.tag.begin.html"
       ],
       "settings": {
-        "foreground": "#9597AD"
+        "foreground": "$light"
       }
     },
     {
@@ -383,7 +383,8 @@
       "name": "comment",
       "scope": [
         "comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "keyword.operator.type.annotation.ts"
       ],
       "settings": {
         "foreground": "$light2"
@@ -476,5 +477,5 @@
         "foreground": "#B267E6"
       }
     }
-  ]
+  ],
 }

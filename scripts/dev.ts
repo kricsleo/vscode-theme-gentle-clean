@@ -15,7 +15,11 @@ async function main() {
   }
   const devContent = await fs.readFile(devFile, 'utf-8')
   const replaced = replace(devContent)
-  await fs.writeFile(targetFile, stripJsonComments(replaced), 'utf-8')
+  const jsonStr = stripJsonComments(replaced, {
+    trailingCommas: true,
+    whitespace: false,
+  })
+  await fs.writeFile(targetFile, jsonStr, 'utf-8')
 }
 
 function replace(content: string): string {
