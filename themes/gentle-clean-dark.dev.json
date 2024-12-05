@@ -1,7 +1,7 @@
 {
   // $white:#fff
-  // $light:#9497A8
-  // $light2:#656A80
+  // $light:#98A1C3
+  // $light2:#5b6078
   // $light3:#A3A5B8
   // $dim: #828793
   // $border: #3E405B
@@ -14,16 +14,18 @@
   // $dark3:#2F3146
   // $dark2:#5D6089
   // $yellow:#BAA65E
-  // $cyan:#56949f
+  // $cyan:#499CAC
   // $mint:#2C9680
   // $green:#429988
   // $red:#BA6E81
   // $red2:#ef4444
-  // $blue:#6397B6
+  // $blue:#60A8D2
   // $blue_bak:#60A8D2 + #449dab
   // $green:#0ea183
   // $teal:#639787
-  // $purple:#8381BB
+  // $teal2:#179299
+  // $purple:#9B98D7
+  // $purple_bak:#8682C9
   // $transparent:#ffffff01
   "name": "Gentle Clean Dark",
   "type": "dark",
@@ -277,7 +279,7 @@
         "constant.other.color.rgb-value.hex.css"
       ],
       "settings": {
-        "foreground": "$light"
+        "foreground": "$teal"
       }
     },
     {
@@ -294,22 +296,19 @@
         "keyword.control",
         "keyword.operator.new",
         "variable.language",
+        "variable.language.this",
         "variable.scss"
       ],
       "settings": {
-        "foreground": "$mint"
+        "foreground": "$teal2"
       }
     },
     {
       "name": "operator",
       "scope": [
         "keyword.operator",
-        "meta.brace.round",
-        "meta.brace.angle",
-        "meta.brace.square",
         "meta.return.type",
         "storage.type.function.arrow",
-        "punctuation",
         "fenced_code.block.language",
         "meta.attribute.directive",
         "punctuation.accessor.optional",
@@ -317,13 +316,12 @@
         "punctuation.definition.tag.begin.html"
       ],
       "settings": {
-        "foreground": "$light"
+        "foreground": "$blue"
       }
     },
     {
       "name": "variable",
       "scope": [
-        "variable.language.this",
         "variable.member",
         "variable.parameter",
         "variable.other.constant.object",
@@ -340,7 +338,7 @@
         "constant"
       ],
       "settings": {
-        "foreground": "$red"
+        "foreground": "$light"
       }
     },
     {
@@ -359,7 +357,6 @@
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
         "punctuation.accessor.optional",
-        "meta.command",
         "string.unquoted.argument",
         "keyword.operator.spread",
         "keyword.operator.expression"
@@ -377,6 +374,19 @@
       ],
       "settings": {
         "foreground": "$purple"
+      }
+    },
+    {
+      "name": "punctuation",
+      "scope": [
+        "punctuation",
+        "meta.command",
+        "meta.brace.round",
+        "meta.brace.angle",
+        "meta.brace.square"
+      ],
+      "settings": {
+        "foreground": "#838ba7"
       }
     },
     {

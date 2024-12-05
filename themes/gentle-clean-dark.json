@@ -2,9 +2,9 @@
   "name": "Gentle Clean Dark",
   "type": "dark",
   "colors": {
-    "foreground": "#9497A8",
+    "foreground": "#98A1C3",
     "errorForeground": "#ef4444",
-    "descriptionForeground": "#9497A8",
+    "descriptionForeground": "#98A1C3",
     "focusBorder": "#ffffff01",
 
     "editor.background": "#1a1b26",
@@ -251,7 +251,7 @@
         "constant.other.color.rgb-value.hex.css"
       ],
       "settings": {
-        "foreground": "#9497A8"
+        "foreground": "#639787"
       }
     },
     {
@@ -268,22 +268,19 @@
         "keyword.control",
         "keyword.operator.new",
         "variable.language",
+        "variable.language.this",
         "variable.scss"
       ],
       "settings": {
-        "foreground": "#2C9680"
+        "foreground": "#179299"
       }
     },
     {
       "name": "operator",
       "scope": [
         "keyword.operator",
-        "meta.brace.round",
-        "meta.brace.angle",
-        "meta.brace.square",
         "meta.return.type",
         "storage.type.function.arrow",
-        "punctuation",
         "fenced_code.block.language",
         "meta.attribute.directive",
         "punctuation.accessor.optional",
@@ -291,13 +288,12 @@
         "punctuation.definition.tag.begin.html"
       ],
       "settings": {
-        "foreground": "#9497A8"
+        "foreground": "#60A8D2"
       }
     },
     {
       "name": "variable",
       "scope": [
-        "variable.language.this",
         "variable.member",
         "variable.parameter",
         "variable.other.constant.object",
@@ -314,7 +310,7 @@
         "constant"
       ],
       "settings": {
-        "foreground": "#BA6E81"
+        "foreground": "#98A1C3"
       }
     },
     {
@@ -333,13 +329,12 @@
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
         "punctuation.accessor.optional",
-        "meta.command",
         "string.unquoted.argument",
         "keyword.operator.spread",
         "keyword.operator.expression"
       ],
       "settings": {
-        "foreground": "#6397B6"
+        "foreground": "#60A8D2"
       }
     },
     {
@@ -350,7 +345,20 @@
         "meta.interface"
       ],
       "settings": {
-        "foreground": "#8381BB"
+        "foreground": "#9B98D7"
+      }
+    },
+    {
+      "name": "punctuation",
+      "scope": [
+        "punctuation",
+        "meta.command",
+        "meta.brace.round",
+        "meta.brace.angle",
+        "meta.brace.square"
+      ],
+      "settings": {
+        "foreground": "#838ba7"
       }
     },
     {
@@ -361,7 +369,7 @@
         "keyword.operator.type.annotation.ts"
       ],
       "settings": {
-        "foreground": "#656A80"
+        "foreground": "#5b6078"
       }
     },
 
