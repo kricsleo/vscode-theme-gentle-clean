@@ -1,7 +1,8 @@
 {
   // $white:#fff
-  // $light:#98A1C3
-  // $light2:#5b6078
+  // $light:#97A0C4
+  // $light_bak:#9BA2C0
+  // $light2:#52587A
   // $light3:#A3A5B8
   // $dim: #828793
   // $border: #3E405B
@@ -13,19 +14,21 @@
   // $black:#000
   // $dark3:#2F3146
   // $dark2:#5D6089
-  // $yellow:#BAA65E
-  // $cyan:#499CAC
+  // $yellow:#ef9f76
+  // $cyan:#42949A
+  // $cyan_bak:#21A3AB
   // $mint:#2C9680
   // $green:#429988
-  // $red:#BA6E81
-  // $red2:#ef4444
-  // $blue:#60A8D2
+  // $red:#D1758E
+  // $red2:#D07173
+  // $blue:#548FCA
   // $blue_bak:#60A8D2 + #449dab
   // $green:#0ea183
-  // $teal:#639787
-  // $teal2:#179299
-  // $purple:#9B98D7
-  // $purple_bak:#8682C9
+  // $teal:#629D8B
+  // $teal2:#19A9B3
+  // $purple:#7584D1
+  // $purple2:#A478BA
+  // $purple_bak:#8E89D8
   // $transparent:#ffffff01
   "name": "Gentle Clean Dark",
   "type": "dark",
@@ -40,7 +43,7 @@
     "editorLineNumber.foreground": "$dim6",
     "editorLineNumber.activeForeground": "$dim",
     "editorIndentGuide.background": "$transparent",
-    "editorIndentGuide.activeBackground": "$dim5",
+    "editorIndentGuide.activeBackground": "$border",
 
     // "sideBar.foreground": "#fff",
     "sideBar.background": "$dark",
@@ -117,7 +120,7 @@
     "activityBar.activeBorder": "#4d9375",
     "activityBar.border": "#65656533",
 
-    "tree.indentGuidesStroke": "#2f363d",
+    "tree.indentGuidesStroke": "$border",
 
     "notificationCenterHeader.foreground": "#959da5",
     "notificationCenterHeader.background": "#1a1b26",
@@ -244,12 +247,11 @@
   },
   "tokenColors": [
     {
-      "name": "object key",
+      "name": "key",
       "scope": [
         "entity.name.label",
         "entity.other.attribute-name",
         "entity.other.attribute-name.html",
-        "entity.other.attribute-name.html.vue",
         "meta.directive",
         "meta.tag.block.any",
         "meta.object-literal.key",
@@ -286,8 +288,6 @@
       "name": "keyword",
       "scope": [
         "punctuation.definition.entity.css",
-        "punctuation.attribute-shorthand",
-        "entity.name.tag",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class.css",
         "support.class.component",
@@ -297,10 +297,11 @@
         "keyword.operator.new",
         "variable.language",
         "variable.language.this",
-        "variable.scss"
+        "variable.scss",
+        "support.type.object.module"
       ],
       "settings": {
-        "foreground": "$teal2"
+        "foreground": "$purple"
       }
     },
     {
@@ -311,9 +312,7 @@
         "storage.type.function.arrow",
         "fenced_code.block.language",
         "meta.attribute.directive",
-        "punctuation.accessor.optional",
-        "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.begin.html"
+        "punctuation.accessor.optional"
       ],
       "settings": {
         "foreground": "$blue"
@@ -350,8 +349,10 @@
         "support.macro",
         "support.class",
         "entity.name.function",
+        "entity.other.attribute-name.html.vue",
         "string.other.link",
         "markup.underline.link",
+        "punctuation.attribute-shorthand",
         "punctuation.definition.string.template",
         "punctuation.definition.interpolation",
         "punctuation.definition.template-expression.begin",
@@ -373,7 +374,7 @@
         "meta.interface"
       ],
       "settings": {
-        "foreground": "$purple"
+        "foreground": "$cyan"
       }
     },
     {
@@ -383,7 +384,9 @@
         "meta.command",
         "meta.brace.round",
         "meta.brace.angle",
-        "meta.brace.square"
+        "meta.brace.square",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.html"
       ],
       "settings": {
         "foreground": "#838ba7"
@@ -404,12 +407,10 @@
     {
       "name": "vue custom element tag",
       "scope": [
-        "meta.tag.custom.start.html entity.name.tag.html",
-        "meta.tag.custom.end.html entity.name.tag.html"
+        "entity.name.tag"
       ],
       "settings": {
-        "fontStyle": "underline"
-        // "foreground": "$cyan"
+        "foreground": "$cyan"
       }
     },
 

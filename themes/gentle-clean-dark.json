@@ -2,9 +2,9 @@
   "name": "Gentle Clean Dark",
   "type": "dark",
   "colors": {
-    "foreground": "#98A1C3",
-    "errorForeground": "#ef4444",
-    "descriptionForeground": "#98A1C3",
+    "foreground": "#97A0C4",
+    "errorForeground": "#D07173",
+    "descriptionForeground": "#97A0C4",
     "focusBorder": "#ffffff01",
 
     "editor.background": "#1a1b26",
@@ -12,7 +12,7 @@
     "editorLineNumber.foreground": "#bbbbbb30",
     "editorLineNumber.activeForeground": "#828793",
     "editorIndentGuide.background": "#ffffff01",
-    "editorIndentGuide.activeBackground": "#bbbbbb88",
+    "editorIndentGuide.activeBackground": "#3E405B",
 
     
     "sideBar.background": "#1a1b26",
@@ -89,7 +89,7 @@
     "activityBar.activeBorder": "#4d9375",
     "activityBar.border": "#65656533",
 
-    "tree.indentGuidesStroke": "#2f363d",
+    "tree.indentGuidesStroke": "#3E405B",
 
     "notificationCenterHeader.foreground": "#959da5",
     "notificationCenterHeader.background": "#1a1b26",
@@ -205,7 +205,7 @@
     "editorError.foreground": "#cb7676",
     "editorWarning.foreground": "#d4976c",
     "editorInfo.foreground": "#6394bf",
-    "editorHint.foreground": "#ef4444",
+    "editorHint.foreground": "#D07173",
     "editorGutter.commentRangeForeground": "#dedcd530",
     "editorGutter.foldingControlForeground": "#dedcd590",
     "editorInlayHint.foreground": "#666666",
@@ -216,12 +216,11 @@
   },
   "tokenColors": [
     {
-      "name": "object key",
+      "name": "key",
       "scope": [
         "entity.name.label",
         "entity.other.attribute-name",
         "entity.other.attribute-name.html",
-        "entity.other.attribute-name.html.vue",
         "meta.directive",
         "meta.tag.block.any",
         "meta.object-literal.key",
@@ -234,7 +233,7 @@
         "meta.definition.property variable.object.property"
       ],
       "settings": {
-        "foreground": "#639787"
+        "foreground": "#629D8B"
       }
     },
     {
@@ -251,15 +250,13 @@
         "constant.other.color.rgb-value.hex.css"
       ],
       "settings": {
-        "foreground": "#639787"
+        "foreground": "#629D8B"
       }
     },
     {
       "name": "keyword",
       "scope": [
         "punctuation.definition.entity.css",
-        "punctuation.attribute-shorthand",
-        "entity.name.tag",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class.css",
         "support.class.component",
@@ -269,10 +266,11 @@
         "keyword.operator.new",
         "variable.language",
         "variable.language.this",
-        "variable.scss"
+        "variable.scss",
+        "support.type.object.module"
       ],
       "settings": {
-        "foreground": "#179299"
+        "foreground": "#7584D1"
       }
     },
     {
@@ -283,12 +281,10 @@
         "storage.type.function.arrow",
         "fenced_code.block.language",
         "meta.attribute.directive",
-        "punctuation.accessor.optional",
-        "punctuation.definition.tag.end.html",
-        "punctuation.definition.tag.begin.html"
+        "punctuation.accessor.optional"
       ],
       "settings": {
-        "foreground": "#60A8D2"
+        "foreground": "#548FCA"
       }
     },
     {
@@ -310,7 +306,7 @@
         "constant"
       ],
       "settings": {
-        "foreground": "#98A1C3"
+        "foreground": "#97A0C4"
       }
     },
     {
@@ -322,8 +318,10 @@
         "support.macro",
         "support.class",
         "entity.name.function",
+        "entity.other.attribute-name.html.vue",
         "string.other.link",
         "markup.underline.link",
+        "punctuation.attribute-shorthand",
         "punctuation.definition.string.template",
         "punctuation.definition.interpolation",
         "punctuation.definition.template-expression.begin",
@@ -334,7 +332,7 @@
         "keyword.operator.expression"
       ],
       "settings": {
-        "foreground": "#60A8D2"
+        "foreground": "#548FCA"
       }
     },
     {
@@ -345,7 +343,7 @@
         "meta.interface"
       ],
       "settings": {
-        "foreground": "#9B98D7"
+        "foreground": "#42949A"
       }
     },
     {
@@ -355,7 +353,9 @@
         "meta.command",
         "meta.brace.round",
         "meta.brace.angle",
-        "meta.brace.square"
+        "meta.brace.square",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.html"
       ],
       "settings": {
         "foreground": "#838ba7"
@@ -369,19 +369,17 @@
         "keyword.operator.type.annotation.ts"
       ],
       "settings": {
-        "foreground": "#5b6078"
+        "foreground": "#52587A"
       }
     },
 
     {
       "name": "vue custom element tag",
       "scope": [
-        "meta.tag.custom.start.html entity.name.tag.html",
-        "meta.tag.custom.end.html entity.name.tag.html"
+        "entity.name.tag"
       ],
       "settings": {
-        "fontStyle": "underline"
-        
+        "foreground": "#42949A"
       }
     },
 
