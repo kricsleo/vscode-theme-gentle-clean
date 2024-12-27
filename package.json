@@ -35,15 +35,14 @@
     ]
   },
   "scripts": {
-    "dev": "bun --watch scripts/dev.ts",
+    "dev": "bun run --watch scripts/dev.ts",
     "build": "vsce package",
-    "release": "bumpp && nr build && vsce publish",
-    "preview": "npx zx ./scripts/preview.mjs"
+    "release": "pnpx bumpp && bun run build && vsce publish",
+    "preview": "bun run ./scripts/preview.ts"
   },
   "devDependencies": {
-    "bumpp": "^8.2.1",
-    "strip-json-comments": "^5.0.1",
-    "vsce": "^2.15.0",
-    "zx": "^7.2.1"
+    "@types/node": "^22.10.2",
+    "@vscode/vsce": "^3.2.1",
+    "strip-json-comments": "^5.0.1"
   }
 }
