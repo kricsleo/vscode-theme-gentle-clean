@@ -2,9 +2,9 @@
   "name": "Gentle Clean Dark",
   "type": "dark",
   "colors": {
-    "foreground": "#97A0C4",
+    "foreground": "#A2AAD3",
     "errorForeground": "#D07173",
-    "descriptionForeground": "#97A0C4",
+    "descriptionForeground": "#A2AAD3",
     "focusBorder": "#ffffff01",
 
     "editor.background": "#1a1b26",
@@ -12,31 +12,31 @@
     "editorLineNumber.foreground": "#bbbbbb30",
     "editorLineNumber.activeForeground": "#828793",
     "editorIndentGuide.background": "#ffffff01",
-    "editorIndentGuide.activeBackground": "#3E405B",
+    "editorIndentGuide.activeBackground": "#292B3D",
 
     
     "sideBar.background": "#1a1b26",
-    "sideBar.border": "#3E405B",
+    "sideBar.border": "#292B3D",
     
     
     
     
 
     "editorCursor.foreground": "#fff",
-    "editor.lineHighlightBackground": "#ffffff01",
+    "editor.lineHighlightBackground": "#313349",
     
-    "editor.foldBackground": "#bbbbbb20",
+    "editor.foldBackground": "#313349",
     
 
     "editor.findMatchBackground": "#2F3146",
     "editor.findMatchBorder": "#ffffff01",
-    "editor.findMatchHighlightBackground": "#ffffff01",
-    "editor.findMatchHighlightBorder": "#bbbbbb88",
+    "editor.findMatchHighlightBackground": "#292B3D",
+    "editor.findMatchHighlightBorder": "#292B3D",
 
     "editor.selectionBackground": "#2F3146",
     "editor.inactiveSelectionBackground": "#2F3146",
-    "editor.selectionHighlightBackground": "#ffffff01",
-    "editor.selectionHighlightBorder": "#bbbbbb88",
+    "editor.selectionHighlightBackground": "#292B3D",
+    "editor.selectionHighlightBorder": "#292B3D",
 
     "editor.wordHighlightBackground": "#ffffff01",
     "editor.wordHighlightStrongBackground": "#ffffff01",
@@ -52,7 +52,7 @@
     "list.inactiveFocusBackground": "#bbbbbb30",
     "list.focusBackground": "#bbbbbb30",
 
-    "panel.border": "#3E405B",
+    "panel.border": "#292B3D",
 
     "textLink.foreground": "#4d9375",
     "textLink.activeForeground": "#4d9375",
@@ -89,7 +89,7 @@
     "activityBar.activeBorder": "#4d9375",
     "activityBar.border": "#65656533",
 
-    "tree.indentGuidesStroke": "#3E405B",
+    "tree.indentGuidesStroke": "#292B3D",
 
     "notificationCenterHeader.foreground": "#959da5",
     "notificationCenterHeader.background": "#1a1b26",
@@ -142,11 +142,11 @@
 
     "scrollbar.shadow": "#ffffff01",
     "widget.shadow": "#ffffff01",
-    "widget.border": "#3E405B",
+    "widget.border": "#292B3D",
 
     "editorOverviewRuler.border": "#111",
 
-    "panelTitle.activeBorder": "#3E405B",
+    "panelTitle.activeBorder": "#292B3D",
     
     
     
@@ -233,7 +233,7 @@
         "meta.definition.property variable.object.property"
       ],
       "settings": {
-        "foreground": "#629D8B"
+        "foreground": "#5CA890"
       }
     },
     {
@@ -250,13 +250,14 @@
         "constant.other.color.rgb-value.hex.css"
       ],
       "settings": {
-        "foreground": "#629D8B"
+        "foreground": "#5CA890"
       }
     },
     {
       "name": "keyword",
       "scope": [
         "punctuation.definition.entity.css",
+        "entity.name.tag",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class.css",
         "support.class.component",
@@ -270,7 +271,7 @@
         "support.type.object.module"
       ],
       "settings": {
-        "foreground": "#7584D1"
+        "foreground": "#A585E0"
       }
     },
     {
@@ -284,7 +285,7 @@
         "punctuation.accessor.optional"
       ],
       "settings": {
-        "foreground": "#548FCA"
+        "foreground": "#7aa2f7"
       }
     },
     {
@@ -306,7 +307,7 @@
         "constant"
       ],
       "settings": {
-        "foreground": "#97A0C4"
+        "foreground": "#A2AAD3"
       }
     },
     {
@@ -332,7 +333,7 @@
         "keyword.operator.expression"
       ],
       "settings": {
-        "foreground": "#548FCA"
+        "foreground": "#7aa2f7"
       }
     },
     {
@@ -343,7 +344,7 @@
         "meta.interface"
       ],
       "settings": {
-        "foreground": "#42949A"
+        "foreground": "#449dab"
       }
     },
     {
@@ -370,16 +371,6 @@
       ],
       "settings": {
         "foreground": "#52587A"
-      }
-    },
-
-    {
-      "name": "vue custom element tag",
-      "scope": [
-        "entity.name.tag"
-      ],
-      "settings": {
-        "foreground": "#42949A"
       }
     },
 

@@ -1,33 +1,33 @@
 {
   // $white:#fff
-  // $light:#97A0C4
+  // $light:#A2AAD3
   // $light_bak:#9BA2C0
   // $light2:#52587A
   // $light3:#A3A5B8
   // $dim: #828793
-  // $border: #3E405B
+  // $border: #292B3D
   // $dim5: #bbbbbb88
   // $dim6: #bbbbbb30
-  // $dim8: #bbbbbb20
+  // $dim8: #313349
   // $dim9: #bbbbbb10
   // $dark:#1a1b26
   // $black:#000
   // $dark3:#2F3146
   // $dark2:#5D6089
   // $yellow:#ef9f76
-  // $cyan:#42949A
-  // $cyan_bak:#21A3AB
+  // $cyan:#449dab
+  // $cyan_bak:#21A3AB + #42949A
   // $mint:#2C9680
   // $green:#429988
   // $red:#D1758E
   // $red2:#D07173
-  // $blue:#548FCA
-  // $blue_bak:#60A8D2 + #449dab
+  // $blue:#7aa2f7
+  // $blue_bak:#60A8D2 + #449dab + #6E9ECF + #408CBF
   // $green:#0ea183
-  // $teal:#629D8B
-  // $teal2:#19A9B3
-  // $purple:#7584D1
-  // $purple2:#A478BA
+  // $teal:#5CA890
+  // $teal2:#19A9B3 + #629D8B
+  // $purple:#A585E0
+  // $purple2:#A478BA + #6E7ECF + #ad8ee6
   // $purple_bak:#8E89D8
   // $transparent:#ffffff01
   "name": "Gentle Clean Dark",
@@ -54,20 +54,20 @@
     // "sideBarSectionHeader.border": "#65656533",
 
     "editorCursor.foreground": "$white",
-    "editor.lineHighlightBackground": "$transparent",
+    "editor.lineHighlightBackground": "$dim8",
     // folded code content
     "editor.foldBackground": "$dim8",
     // "editorWhitespace.foreground": "#444d56",
 
     "editor.findMatchBackground": "$dark3",
     "editor.findMatchBorder": "$transparent",
-    "editor.findMatchHighlightBackground": "$transparent",
-    "editor.findMatchHighlightBorder": "$dim5",
+    "editor.findMatchHighlightBackground": "$border",
+    "editor.findMatchHighlightBorder": "$border",
 
     "editor.selectionBackground": "$dark3",
     "editor.inactiveSelectionBackground": "$dark3",
-    "editor.selectionHighlightBackground": "$transparent",
-    "editor.selectionHighlightBorder": "$dim5",
+    "editor.selectionHighlightBackground": "$border",
+    "editor.selectionHighlightBorder": "$border",
 
     "editor.wordHighlightBackground": "$transparent",
     "editor.wordHighlightStrongBackground": "$transparent",
@@ -288,6 +288,7 @@
       "name": "keyword",
       "scope": [
         "punctuation.definition.entity.css",
+        "entity.name.tag",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class.css",
         "support.class.component",
@@ -405,16 +406,6 @@
     },
 
     {
-      "name": "vue custom element tag",
-      "scope": [
-        "entity.name.tag"
-      ],
-      "settings": {
-        "foreground": "$cyan"
-      }
-    },
-
-    {
       "scope": [
         "markup.heading",
         "punctuation.definition.heading"
@@ -488,5 +479,5 @@
         "foreground": "#B267E6"
       }
     }
-  ],
+  ]
 }
