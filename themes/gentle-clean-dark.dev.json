@@ -8,7 +8,7 @@
   // $border: #292B3D
   // $dim5: #bbbbbb88
   // $dim6: #bbbbbb30
-  // $dim8: #313349
+  // $dim8: #292B3D
   // $dim9: #bbbbbb10
   // $dark:#1a1b26
   // $black:#000
@@ -74,14 +74,14 @@
     "editor.wordHighlightBorder": "$transparent",
 
     "list.hoverForeground": "$white",
-    "list.hoverBackground": "$dim6",
+    "list.hoverBackground": "$dark3",
     // "list.activeSelectionForeground": "#fff",
-    "list.activeSelectionBackground": "$dim6",
+    "list.activeSelectionBackground": "$dark3",
     "list.focusAndSelectionOutline": "$transparent",
     "list.inactiveSelectionForeground": "$white",
-    "list.inactiveSelectionBackground": "$dim6",
-    "list.inactiveFocusBackground": "$dim6",
-    "list.focusBackground": "$dim6",
+    "list.inactiveSelectionBackground": "$dark3",
+    "list.inactiveFocusBackground": "$dark3",
+    "list.focusBackground": "$dark3",
 
     "panel.border": "$border",
 

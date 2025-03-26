@@ -23,9 +23,9 @@
     
 
     "editorCursor.foreground": "#fff",
-    "editor.lineHighlightBackground": "#313349",
+    "editor.lineHighlightBackground": "#292B3D",
     
-    "editor.foldBackground": "#313349",
+    "editor.foldBackground": "#292B3D",
     
 
     "editor.findMatchBackground": "#2F3146",
@@ -43,14 +43,14 @@
     "editor.wordHighlightBorder": "#ffffff01",
 
     "list.hoverForeground": "#fff",
-    "list.hoverBackground": "#bbbbbb30",
+    "list.hoverBackground": "#2F3146",
     
-    "list.activeSelectionBackground": "#bbbbbb30",
+    "list.activeSelectionBackground": "#2F3146",
     "list.focusAndSelectionOutline": "#ffffff01",
     "list.inactiveSelectionForeground": "#fff",
-    "list.inactiveSelectionBackground": "#bbbbbb30",
-    "list.inactiveFocusBackground": "#bbbbbb30",
-    "list.focusBackground": "#bbbbbb30",
+    "list.inactiveSelectionBackground": "#2F3146",
+    "list.inactiveFocusBackground": "#2F3146",
+    "list.focusBackground": "#2F3146",
 
     "panel.border": "#292B3D",
 
