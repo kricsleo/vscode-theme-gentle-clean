@@ -8,11 +8,11 @@
   // $border: #292B3D
   // $dim5: #bbbbbb88
   // $dim6: #bbbbbb30
-  // $dim8: #292B3D
+  // $dim8: #33364C
   // $dim9: #bbbbbb10
   // $dark:#1a1b26
   // $black:#000
-  // $dark3:#2F3146
+  // $dark3:#484B6B
   // $dark2:#5D6089
   // $yellow:#ef9f76
   // $cyan:#449dab
@@ -55,13 +55,12 @@
 
     "editorCursor.foreground": "$white",
     "editor.lineHighlightBackground": "$dim8",
-    // folded code content
     "editor.foldBackground": "$dim8",
     // "editorWhitespace.foreground": "#444d56",
 
     "editor.findMatchBackground": "$dark3",
     "editor.findMatchBorder": "$transparent",
-    "editor.findMatchHighlightBackground": "$border",
+    "editor.findMatchHighlightBackground": "$dark3",
     "editor.findMatchHighlightBorder": "$border",
 
     "editor.selectionBackground": "$dark3",
@@ -401,7 +400,8 @@
         "keyword.operator.type.annotation.ts"
       ],
       "settings": {
-        "foreground": "$light2"
+        "foreground": "$light2",
+        "fontStyle": "italic"
       }
     },
 

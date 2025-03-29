@@ -23,18 +23,17 @@
     
 
     "editorCursor.foreground": "#fff",
-    "editor.lineHighlightBackground": "#292B3D",
-    
-    "editor.foldBackground": "#292B3D",
+    "editor.lineHighlightBackground": "#33364C",
+    "editor.foldBackground": "#33364C",
     
 
-    "editor.findMatchBackground": "#2F3146",
+    "editor.findMatchBackground": "#484B6B",
     "editor.findMatchBorder": "#ffffff01",
-    "editor.findMatchHighlightBackground": "#292B3D",
+    "editor.findMatchHighlightBackground": "#484B6B",
     "editor.findMatchHighlightBorder": "#292B3D",
 
-    "editor.selectionBackground": "#2F3146",
-    "editor.inactiveSelectionBackground": "#2F3146",
+    "editor.selectionBackground": "#484B6B",
+    "editor.inactiveSelectionBackground": "#484B6B",
     "editor.selectionHighlightBackground": "#292B3D",
     "editor.selectionHighlightBorder": "#292B3D",
 
@@ -43,14 +42,14 @@
     "editor.wordHighlightBorder": "#ffffff01",
 
     "list.hoverForeground": "#fff",
-    "list.hoverBackground": "#2F3146",
+    "list.hoverBackground": "#484B6B",
     
-    "list.activeSelectionBackground": "#2F3146",
+    "list.activeSelectionBackground": "#484B6B",
     "list.focusAndSelectionOutline": "#ffffff01",
     "list.inactiveSelectionForeground": "#fff",
-    "list.inactiveSelectionBackground": "#2F3146",
-    "list.inactiveFocusBackground": "#2F3146",
-    "list.focusBackground": "#2F3146",
+    "list.inactiveSelectionBackground": "#484B6B",
+    "list.inactiveFocusBackground": "#484B6B",
+    "list.focusBackground": "#484B6B",
 
     "panel.border": "#292B3D",
 
@@ -370,7 +369,8 @@
         "keyword.operator.type.annotation.ts"
       ],
       "settings": {
-        "foreground": "#52587A"
+        "foreground": "#52587A",
+        "fontStyle": "italic"
       }
     },
 
