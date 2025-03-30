@@ -45,18 +45,12 @@
     "editorIndentGuide.background": "$transparent",
     "editorIndentGuide.activeBackground": "$border",
 
-    // "sideBar.foreground": "#fff",
     "sideBar.background": "$dark",
     "sideBar.border": "$border",
-    // "sideBarTitle.foreground": "#dbd7caee",
-    // "sideBarSectionHeader.foreground": "#dbd7caee",
-    // "sideBarSectionHeader.background": "#1a1b26",
-    // "sideBarSectionHeader.border": "#65656533",
 
     "editorCursor.foreground": "$white",
     "editor.lineHighlightBackground": "$dim8",
     "editor.foldBackground": "$dim8",
-    // "editorWhitespace.foreground": "#444d56",
 
     "editor.findMatchBackground": "$dark3",
     "editor.findMatchBorder": "$transparent",
@@ -74,7 +68,6 @@
 
     "list.hoverForeground": "$white",
     "list.hoverBackground": "$dark3",
-    // "list.activeSelectionForeground": "#fff",
     "list.activeSelectionBackground": "$dark3",
     "list.focusAndSelectionOutline": "$transparent",
     "list.inactiveSelectionForeground": "$white",
@@ -177,13 +170,6 @@
     "editorOverviewRuler.border": "#111",
 
     "panelTitle.activeBorder": "$border",
-    // "panelTitle.activeForeground": "#dbd7caee",
-    // "panelTitle.inactiveForeground": "#959da5",
-    // "panelInput.border": "#2f363d",
-
-    // "terminal.foreground": "#bbb",
-    // "terminal.selectionBackground": "#eeeeee15",
-    // "terminal.tab.activeBorder": "$border",
     "terminal.ansiBrightBlack": "#777777",
     "terminal.ansiBrightBlue": "#6394bf",
     "terminal.ansiBrightCyan": "#5eaab5",
