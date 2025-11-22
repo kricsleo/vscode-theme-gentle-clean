@@ -8,8 +8,8 @@ main()
 
 function main() {
   execSync(`bun run build`)
-  execSync(`code --uninstall-extension ${extensionId}`)
-  execSync(`code --install-extension ${extensionPath}`)
+  execSync(`cursor --uninstall-extension ${extensionId}`)
+  execSync(`cursor --install-extension ${extensionPath}`)
 
   console.log('\n=======>', extensionPath, 'Installed <=======')
 }
